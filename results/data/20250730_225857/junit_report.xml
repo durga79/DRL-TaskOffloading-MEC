@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="DRLTaskOffloading" tests="3" failures="0" errors="0" skipped="0" timestamp="Wed Jul 30 10:58:59 PM IST 2025">
+    <testcase classname="org.fog.test.drl.SimpleDRLTaskOffloading" name="testSimpleDRL">
+      <system-out>
+        ============== RESULTS ==================
+=========================================
+EXECUTION TIME : 448
+=========================================
+APPLICATION LOOP DELAYS
+=========================================
+[SENSOR, client, object_detector, motion_tracker, client, ACTUATOR] ---> null
+=========================================
+TUPLE CPU EXECUTION DELAY
+=========================================
+SENSOR ---> 1.099999999999909
+=========================================
+cloud : Energy Consumed = 3235621.4285714286
+edge-server-0 : Energy Consumed = 213994.97999999992
+mobile-0-0 : Energy Consumed = 167343.05099999977
+mobile-0-1 : Energy Consumed = 164880.0
+mobile-0-2 : Energy Consumed = 164880.0
+edge-server-1 : Energy Consumed = 166866.59999999995
+mobile-1-0 : Energy Consumed = 164880.0
+mobile-1-1 : Energy Consumed = 164880.0
+mobile-1-2 : Energy Consumed = 164880.0
+      </system-out>
+    </testcase>
+    <testcase classname="org.fog.test.drl.LearnableDRLTaskOffloading" name="testLearnableDRL">
+      <system-out>
+        ============== RESULTS ==================
+=========================================
+EXECUTION TIME : 394
+=========================================
+APPLICATION LOOP DELAYS
+=========================================
+[SENSOR, client, object_detector, motion_tracker, client, ACTUATOR] ---> null
+=========================================
+TUPLE CPU EXECUTION DELAY
+=========================================
+SENSOR ---> 1.171428571428578
+=========================================
+cloud : Energy Consumed = 2664000.0
+edge-server-0 : Energy Consumed = 166866.59999999995
+mobile-0-0 : Energy Consumed = 164880.0
+mobile-0-1 : Energy Consumed = 164880.0
+mobile-0-2 : Energy Consumed = 164880.0
+edge-server-1 : Energy Consumed = 177582.50078000102
+mobile-1-0 : Energy Consumed = 164880.0
+mobile-1-1 : Energy Consumed = 175060.0
+mobile-1-2 : Energy Consumed = 164880.0
+      </system-out>
+    </testcase>
+    <testcase classname="org.fog.test.drl.FullDRLTaskOffloading" name="testFullDRL">
+      <system-out>
+        
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

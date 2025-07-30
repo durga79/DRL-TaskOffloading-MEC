@@ -1,0 +1,21 @@
+============== RESULTS ==================
+=========================================
+EXECUTION TIME : 448
+=========================================
+APPLICATION LOOP DELAYS
+=========================================
+[SENSOR, client, object_detector, motion_tracker, client, ACTUATOR] ---> null
+=========================================
+TUPLE CPU EXECUTION DELAY
+=========================================
+SENSOR ---> 1.099999999999909
+=========================================
+cloud : Energy Consumed = 3235621.4285714286
+edge-server-0 : Energy Consumed = 213994.97999999992
+mobile-0-0 : Energy Consumed = 167343.05099999977
+mobile-0-1 : Energy Consumed = 164880.0
+mobile-0-2 : Energy Consumed = 164880.0
+edge-server-1 : Energy Consumed = 166866.59999999995
+mobile-1-0 : Energy Consumed = 164880.0
+mobile-1-1 : Energy Consumed = 164880.0
+mobile-1-2 : Energy Consumed = 164880.0
