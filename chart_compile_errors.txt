@@ -1,0 +1,16 @@
+src\org\fog\utils\ChartGenerator.java:85: warning: [unchecked] unchecked call to forEach(Consumer<? super T>) as a member of the raw type Iterable
+        executionTime.keySet().forEach(key -> {
+                                      ^
+  where T is a type-variable:
+    T extends Object declared in interface Iterable
+src\org\fog\utils\ChartGenerator.java:113: warning: [unchecked] unchecked call to forEach(Consumer<? super T>) as a member of the raw type Iterable
+        energyConsumption.keySet().forEach(key -> {
+                                          ^
+  where T is a type-variable:
+    T extends Object declared in interface Iterable
+src\org\fog\utils\ChartGenerator.java:142: warning: [unchecked] unchecked call to forEach(Consumer<? super T>) as a member of the raw type Iterable
+        networkUsage.keySet().forEach(key -> {
+                                     ^
+  where T is a type-variable:
+    T extends Object declared in interface Iterable
+3 warnings
