@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="DRLTaskOffloading" tests="3" failures="0" errors="0" skipped="0" timestamp="08-08-2025 10:17:02.76">
+    <testcase classname="org.fog.test.drl.SimpleDRLTaskOffloading" name="testSimpleDRL">
+      <system-out>
+============== RESULTS ==================
+      </system-out>
+    </testcase>
+    <testcase classname="org.fog.test.drl.LearnableDRLTaskOffloading" name="testLearnableDRL">
+      <system-out>
+============== RESULTS ==================
+      </system-out>
+    </testcase>
+    <testcase classname="org.fog.test.drl.FullDRLTaskOffloading" name="testFullDRL">
+      <system-out>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
